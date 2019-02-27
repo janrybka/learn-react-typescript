@@ -1,3 +1,7 @@
+Prepared with: https://github.com/Microsoft/TypeScript-React-Starter
+
+going with tutorial on: https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

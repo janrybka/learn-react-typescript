@@ -26,3 +26,33 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.test-result {
+  float: left;  
+}
+
+.test-result-details {
+  float: none;
+  clear: both;
+  border: 1px dashed royalblue;
+}
+
+.test-result-details textarea {
+  width: 100%;
+}
+
+.app-tester {
+  clear: both;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.app-tester button {
+  float: right;
+}
+
+.app-tester .history {
+  clear: both;
+  padding: 2px 5px;
+}
