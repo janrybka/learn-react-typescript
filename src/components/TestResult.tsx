@@ -25,7 +25,7 @@ class TestResult extends React.Component<TestResultProps, TestResultState> {
         }
         let details = null;
         if (this.state.detailsShown) {
-            details = <>{failedTests}<br /><textarea defaultValue={this.props.rawResult} cols={120} rows={5}></textarea></>;
+            details = <>{"Check date: " + this.props.testDate} - {failedTests}<br /><textarea defaultValue={this.props.rawResult} cols={120} rows={5}></textarea></>;
         }
         return (<div className={'test-result ' + (this.state.detailsShown ? 'test-result-details' : '')}>
             <a onClick={this.toogleDetails}>

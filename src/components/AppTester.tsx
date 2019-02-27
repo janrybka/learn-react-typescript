@@ -29,7 +29,7 @@ export default class AppTester extends React.Component<AppTesterProps, AppTester
 
     componentDidMount() {
         this.makeHealthCheck();
-        var intervalId = setInterval(this.makeHealthCheck.bind(this), 15000);
+        var intervalId = setInterval(this.makeHealthCheck.bind(this), 30000);
         // store intervalId in the state so it can be accessed later:
         this.setState({ intervalId: intervalId });
     }
