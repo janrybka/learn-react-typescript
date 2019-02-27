@@ -29,7 +29,7 @@ class TestResult extends React.Component<TestResultProps, TestResultState> {
         }
         return (<div className={'test-result ' + (this.state.detailsShown ? 'test-result-details' : '')}>
             <a onClick={this.toogleDetails}>
-                <img src={this.props.allChecksPassed ? "img/check_green.png" : "img/cross_red.png"} title={"Last Check:" + this.props.testDate} width="32" height="32" />
+                <img src={this.props.allChecksPassed ? "img/check_green.png" : "img/cross_red.png"} title={"Check date: " + this.props.testDate} width="32" height="32" />
             </a>
             {details}
         </div>);

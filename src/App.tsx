@@ -19,10 +19,10 @@ class App extends React.Component {
         <AppTester name="demo CI" url="nppapi-demo-ci.britishcouncil.org/api/healthcheck?token=7b5f1937-f875-4619-b5e5-1686bfd9f58f" />
         <AppTester name="demo QA" url="nppapi-demo-qa.britishcouncil.org/api/healthcheck?token=7b5f1937-f875-4619-b5e5-1686bfd9f58f" />
         <AppTester name="UAT" url="nppapi-uat.britishcouncil.org/api/healthcheck?token=7b5f1937-f875-4619-b5e5-1686bfd9f58f" />        
+        <AppTester name="Staging" url="nppapi-staging.britishcouncil.org/api/healthcheck?token=7b5f1937-f875-4619-b5e5-1686bfd9f58f" />
       </div>
     );
 
-    //<AppTester name="Staging" url="nppapi-staging.britishcouncil.org/api/healthcheck?token=7b5f1937-f875-4619-b5e5-1686bfd9f58f" />
     //<AppTester name="Live" url="nppapi.britishcouncil.org/api/healthcheck?token=7b5f1937-f875-4619-b5e5-1686bfd9f58f" />
   }
 }
