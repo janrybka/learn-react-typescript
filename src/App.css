@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size: 1em;
 }
 
 .App-logo {
@@ -46,6 +47,7 @@
   padding: 10px;
   margin: 10px;
   border: 1px solid black;
+  line-height: 32px;
 }
 
 .app-tester button {
